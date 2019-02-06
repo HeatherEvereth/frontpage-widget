@@ -1,0 +1,48 @@
+
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+            <widget class="ironman\frontpage-widget\Block\Widget\frontwidget" id="ironman_frontpagewidget_frontwidget">
+                        <label>Ironman Front Widget</label>
+                        <description></description>
+                        <parameters>
+                                    <parameter name="headline1" sort_order="10" visible="true" xsi:type="text">
+                                                <label>Headline</label>
+                                    </parameter>
+                                    <parameter name="subhead" sort_order="20" visible="true" xsi:type="textarea">
+                                                <label>Subheading</label>
+                                    </parameter>
+                                    <parameter name="textcolor" sort_order="20" visible="true" xsi:type="textarea">
+                                                <label>Text Color</label>
+                                    </parameter>
+                                    <parameter name="bannercolor" sort_order="20" visible="true" xsi:type="textarea">
+                                                <label>Banner Color</label>
+                                    </parameter>
+                                    <parameter name="buttonbackground" sort_order="20" visible="true" xsi:type="textarea">
+                                                <label>Button Background</label>
+                                    </parameter>
+                                    <parameter name="link1" sort_order="20" visible="true" xsi:type="textarea">
+                                                <label>Link 1</label>
+                                    </parameter>
+                                    <parameter name="button1" sort_order="20" visible="true" xsi:type="textarea">
+                                                <label>Button 1</label>
+                                    </parameter>
+                                    <parameter name="link2" sort_order="20" visible="true" xsi:type="textarea">
+                                                <label>Link 2</label>
+                                    </parameter>
+                                    <parameter name="button2" sort_order="20" visible="true" xsi:type="textarea">
+                                                <label>Button 2</label>
+                                    </parameter>
+                                    <parameter name="link3" sort_order="20" visible="true" xsi:type="textarea">
+                                                <label>Link 3</label>
+                                    </parameter>
+                                    <parameter name="button3" sort_order="20" visible="true" xsi:type="textarea">
+                                                <label>Button 3</label>
+                                    </parameter>
+                                    <parameter name="link4" sort_order="20" visible="true" xsi:type="textarea">
+                                                <label>Link 4</label>
+                                    </parameter>
+                                    <parameter name="button4" sort_order="20" visible="true" xsi:type="textarea">
+                                                <label>Button 4</label>
+                                    </parameter>
+                        </parameters>
+            </widget>
+</widgets>
